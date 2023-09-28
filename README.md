@@ -1,85 +1,59 @@
-# README for Running Jupyter Notebook Code on a Windows 10 Machine
+# Capstone Project:
+Welcome to my Capstone Project! This project is designed to be run on Google Colab, a cloud-based Jupyter Notebook environment. To get started, follow the steps below:
 
-This README provides detailed instructions on how to run the Jupyter Notebook code on a Windows 10 machine, assuming that Python and all required dependencies are not installed. This guide will help you set up a clean environment and execute the code.
+## Accessing the Project on Google Colab
 
-## Prerequisites
+1. **Open Google Colab**:
+   - Open a web browser and navigate to the Google Colab website: [Google Colab](https://colab.research.google.com/).
 
-Before you begin, make sure you have the following software installed on your Windows 10 machine:
+2. **Sign in with Google**:
+   - Sign in to your Google account if you're not already signed in.
 
-1. **Anaconda (Miniconda)**: Anaconda is a Python distribution that includes many data science libraries and tools. You can download Miniconda (a minimal version of Anaconda) from the official website: https://docs.conda.io/en/latest/miniconda.html
+3. **Open the Notebook**:
+   - Click on "File" > "Open notebook."
+   - In the "GitHub" tab, enter the URL of this project's GitHub repository.
 
-## Getting Started
+   Example Repository URL:
+https://github.com/yourusername/capstone-project
 
-1. **Download the Project Files**:
+markdown
+Copy code
 
-   - Download the project files, including the Jupyter Notebook and image dataset, from https://github.com/tubayeezus/CapstoneProject.git .
+- Select the notebook file you want to run (e.g., `capstone_project.ipynb`). The notebook will open in Google Colab.
 
-2. **Install Miniconda**:
+## Running the Notebook
 
-   - Install Miniconda by following the instructions for your Windows 10 machine from the Miniconda website. During installation, choose to add Miniconda to your system PATH.
+4. **Mount Google Drive**:
+- To access the image dataset and necessary files, you need to mount your Google Drive. Execute the following code cell at the beginning of the notebook:
 
-3. **Create a New Conda Environment**:
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+Follow the prompts to authenticate and mount Google Drive.
+Upload the Dataset Folder:
 
-   - Open a command prompt on your Windows 10 machine.
-   - Create a new Conda environment by running the following command:
-   
-     ```
-     conda create --name myenv python=3.7
-     ```
+Download the dataset folder from the project's GitHub repository to your local machine. You can find it in the "Dataset" section of the repository.
+After downloading, log in to your Google Drive and upload the entire dataset folder to any location in your Google Drive that you prefer.
+Specify the Dataset Path:
 
-   Replace `myenv` with the desired environment name and `python=3.7` with your preferred Python version if needed.
+In the notebook, locate the code cell that specifies the path to the dataset. It should look similar to this:
+python
+Copy code
+dataset_path = '/content/drive/MyDrive/your_dataset_folder'
+Update your_dataset_folder with the actual path to the dataset folder you uploaded to your Google Drive.
+Install Dependencies:
 
-4. **Activate the Conda Environment**:
+The required Python libraries are specified in the notebook. You can install them by running the provided code cell.
+Running the Notebook Cells:
 
-   - Activate the Conda environment by running the following command:
+Execute the code cells in the notebook sequentially by clicking the "Run" button or using keyboard shortcuts.
+Follow the notebook instructions to train models, visualize results, and make predictions.
+Feedback and Questions
+If you have any questions, encounter issues, or would like to provide feedback, please feel free to reach out. You can contact us via email or through the GitHub repository associated with this project.
 
-     ```
-     conda activate myenv
-     ```
+Thank you for your interest in this Capstone Project. We hope you find it informative and engaging!
 
-   Replace `myenv` with the name of your environment.
+less
+Copy code
 
-5. **Install Required Libraries**:
-
-   - Install the required Python libraries by running the following commands:
-
-     ```
-     pip install tensorflow
-     pip install matplotlib
-     pip install pillow
-     pip install opencv-python
-     pip install numpy
-     pip install pandas
-     pip install shap
-     pip install scikit-learn
-     ```
-
-6. **Navigate to the Project Folder**:
-
-   - Use the `cd` command to navigate to the folder where you downloaded the project files.
-
-7. **Start Jupyter Notebook**:
-
-   - Start Jupyter Notebook by running the following command:
-
-     ```
-     jupyter notebook
-     ```
-
-   This will open the Jupyter Notebook interface in your web browser.
-
-8. **Open and Run the Notebook**:
-
-   - In the Jupyter Notebook interface, navigate to the folder containing the Jupyter Notebook file (`NEWONE.ipynb`).
-
-   - Click on the notebook file to open it.
-
-   - Follow the instructions within the notebook to run the code cells.
-
-9. **Test the Model with Custom Images**:
-
-   - If you want to test the model with custom images, follow the instructions provided in the notebook. You can upload JPEG images to the specified directory and run the code to make predictions.
-
-##
-
-Enjoy exploring and running the Jupyter Notebook code on your Windows 10 machine!
+Please replace `https://github.com/yourusername/capstone-project` with the actual URL of your Capstone Project's GitHub repository. This README provides specific steps for users to download the dataset, set up the project on Google Colab, and run the notebook with the specified dataset path.
