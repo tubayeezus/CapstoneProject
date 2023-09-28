@@ -41,4 +41,4 @@ Running the Notebook Cells:
 Execute the code cells in the notebook sequentially by clicking the "Run" button or using keyboard shortcuts.
 Follow the notebook instructions to train models, visualize results, and make predictions.
 
-Thank you for your interest in this Capstone Project. We hope you find it informative and engaging!
+Thank you for your interest in my Capstone Project. I hope you find it informative and engaging!
