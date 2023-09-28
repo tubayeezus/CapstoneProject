@@ -25,7 +25,7 @@ https://github.com/tubayeezus/CapstoneProject/blob/main/project.ipynb
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
-'''
+```
 
 Follow the prompts to authenticate and mount Google Drive.
 Upload the Dataset Folder:
@@ -40,12 +40,5 @@ Running the Notebook Cells:
 
 Execute the code cells in the notebook sequentially by clicking the "Run" button or using keyboard shortcuts.
 Follow the notebook instructions to train models, visualize results, and make predictions.
-Feedback and Questions
-If you have any questions, encounter issues, or would like to provide feedback, please feel free to reach out. You can contact us via email or through the GitHub repository associated with this project.
 
 Thank you for your interest in this Capstone Project. We hope you find it informative and engaging!
-
-less
-Copy code
-
-Please replace `https://github.com/yourusername/capstone-project` with the actual URL of your Capstone Project's GitHub repository. This README provides specific steps for users to download the dataset, set up the project on Google Colab, and run the notebook with the specified dataset path.
