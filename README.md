@@ -25,6 +25,7 @@ https://github.com/tubayeezus/CapstoneProject/blob/main/project.ipynb
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+'''
 
 Follow the prompts to authenticate and mount Google Drive.
 Upload the Dataset Folder:
