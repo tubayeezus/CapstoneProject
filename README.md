@@ -70,7 +70,7 @@ Before you begin, make sure you have the following software installed on your Wi
 
 8. **Open and Run the Notebook**:
 
-   - In the Jupyter Notebook interface, navigate to the folder containing the Jupyter Notebook file (`Your_Notebook.ipynb`).
+   - In the Jupyter Notebook interface, navigate to the folder containing the Jupyter Notebook file (`NEWONE.ipynb`).
 
    - Click on the notebook file to open it.
 
@@ -80,10 +80,6 @@ Before you begin, make sure you have the following software installed on your Wi
 
    - If you want to test the model with custom images, follow the instructions provided in the notebook. You can upload JPEG images to the specified directory and run the code to make predictions.
 
-## Additional Notes
-
-- If you encounter any issues during the setup or execution of the code, please refer to the official documentation of the respective libraries or contact the project author for assistance.
-
-- For advanced users, consider using virtual environments or Docker for isolating the project's dependencies further.
+##
 
 Enjoy exploring and running the Jupyter Notebook code on your Windows 10 machine!
