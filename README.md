@@ -12,7 +12,7 @@ Before you begin, make sure you have the following software installed on your Wi
 
 1. **Download the Project Files**:
 
-   - Download the project files, including the Jupyter Notebook and image dataset, from [GitHub Repository Link](link_to_repository).
+   - Download the project files, including the Jupyter Notebook and image dataset, from https://github.com/tubayeezus/CapstoneProject.git .
 
 2. **Install Miniconda**:
 
