@@ -13,13 +13,9 @@ Welcome to my Capstone Project! This project is designed to be run on Google Col
    - Click on "File" > "Open notebook."
    - In the "GitHub" tab, enter the URL of this project's GitHub repository.
 
-   Example Repository URL:
-https://github.com/yourusername/capstone-project
+https://github.com/tubayeezus/CapstoneProject/blob/main/project.ipynb
 
-markdown
-Copy code
-
-- Select the notebook file you want to run (e.g., `capstone_project.ipynb`). The notebook will open in Google Colab.
+- Select the notebook file you want to run (e.g., `project.ipynb`). The notebook will open in Google Colab.
 
 ## Running the Notebook
 
@@ -29,18 +25,13 @@ Copy code
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+
 Follow the prompts to authenticate and mount Google Drive.
 Upload the Dataset Folder:
 
-Download the dataset folder from the project's GitHub repository to your local machine. You can find it in the "Dataset" section of the repository.
-After downloading, log in to your Google Drive and upload the entire dataset folder to any location in your Google Drive that you prefer.
-Specify the Dataset Path:
+Download the dataset folder from the project's GitHub repository to your local machine. You can find it as "base_data".
+After downloading, log in to your Google Drive and upload the entire dataset folder to your Google Drive.
 
-In the notebook, locate the code cell that specifies the path to the dataset. It should look similar to this:
-python
-Copy code
-dataset_path = '/content/drive/MyDrive/your_dataset_folder'
-Update your_dataset_folder with the actual path to the dataset folder you uploaded to your Google Drive.
 Install Dependencies:
 
 The required Python libraries are specified in the notebook. You can install them by running the provided code cell.
